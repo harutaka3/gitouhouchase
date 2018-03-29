@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19E179BF-15A0-A185-3096-476A702976A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>2017.3.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;UNITY_ADS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;UNITY_ADS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="BulletXNA-Unity">
+      <HintPath>Assets/BulletXNA/BulletXNA-Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/harutaka/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>E:/haru/UnityInstallFolders/Unity201731/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="TouhouChase.Plugins.csproj">
+      <Project>{1C8D6B51-B48A-F597-D34E-32E8058F5910}</Project>
+      <Name>TouhouChase.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="TouhouChase.csproj">
+      <Project>{25A857D0-B039-7A3E-77FF-8D17A6DF551E}</Project>
+      <Name>TouhouChase</Name>
+    </ProjectReference>
+    <ProjectReference Include="TouhouChase.unityproj">
+      <Project>{25A857D0-B039-7A3E-77FF-8D17A6DF551E}</Project>
+      <Name>TouhouChase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\Cartoon FX\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Config\Config.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Config\ConfigWindow.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\ExpressionManagerEditor.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Inspector\InspectorBase.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Inspector\PMDInspector.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Inspector\PMDScriptableObject.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Inspector\ScriptableObjectBase.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Inspector\VMDInspector.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\Inspector\VMDScriptableObject.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDEngineEditor.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\LoadedWindow.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\PMDLoaderWindow.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\AlphaReadableTexture.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\AlphaReadableTextureDirectoryImporter.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\AvatarSettingScript.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\ComputeSkin.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\MMDFormat.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\MMDMathf.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\ModelAgent.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\MotionAgent.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\PMDConverter.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\PMDLoaderScript.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\PMXConverter.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\PMXLoaderScript.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\PMXLoaderScript.PMD2PMX.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\PMXLoaderScript.PMX2PMD.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\VMDConverter.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\Private\VMDLoaderScript.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MMDLoader\VMDLoaderWindow.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\MorphManagerEditor.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\PhysicsManagerEditor.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\XFileImporter\Private\XFileConverter.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\XFileImporter\Private\XFileFormat.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\XFileImporter\Private\XFileImporter.cs" />
+    <Compile Include="Assets\mmd-for-unity 2.1b\Editor\XFileImporter\XFileImporterWindow.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Cartoon FX\CartoonFX Readme.txt" />
+    <None Include="Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+    <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+    <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\FX Mega Pack\FX Mega Pack - Readme.txt" />
+    <None Include="Assets\MMD_REIMU\博麗霊夢.txt" />
+    <None Include="Assets\MMDmodels\FrandreScarletVer1.1\フランドール・スカーレット.xml" />
+    <None Include="Assets\MMDmodels\Patchouli_v1c\※最初にお読みください.txt" />
+    <None Include="Assets\MMDmodels\Patchouli_v1c\パチュリー・ノーレッジ.xml" />
+    <None Include="Assets\MMDmodels\RemiliaScarletVer1.1baba\レミリア・スカーレット.xml" />
+    <None Include="Assets\MMDmodels\かなた天子Ver0.95.1\About Accessories.txt" />
+    <None Include="Assets\MMDmodels\かなた天子Ver0.95.1\readme_English.txt" />
+    <None Include="Assets\MMDmodels\かなた天子Ver0.95.1\readme_Japanese.txt" />
+    <None Include="Assets\MMDmodels\かなた天子Ver0.95.1\比那名居天子.xml" />
+    <None Include="Assets\MMDmodels\かなた天子Ver0.95.1\繧｢繧ｯ繧ｻ繧ｵ繝ｪ縺ｫ縺､縺・※.txt" />
+    <None Include="Assets\MMDmodels\予備うどんげ(緋想天)_alva_v12\alv_udn.txt" />
+    <None Include="Assets\MMDmodels\予備うどんげ(緋想天)_alva_v12\readme.txt" />
+    <None Include="Assets\MMDmodels\予備うどんげ(緋想天)_alva_v12\鈴仙・イナバ・優曇華院.xml" />
+    <None Include="Assets\MMDmodels\依神女苑\依神女苑.xml" />
+    <None Include="Assets\MMDmodels\依神紫苑\依神紫苑.xml" />
+    <None Include="Assets\MMDmodels\十六夜咲夜\Sakuya\read me.txt" />
+    <None Include="Assets\MMDmodels\十六夜咲夜\read me.txt" />
+    <None Include="Assets\MMDmodels\十六夜咲夜\十六夜咲夜.xml" />
+    <None Include="Assets\MMDmodels\博麗霊夢\霊夢.xml" />
+    <None Include="Assets\MMDmodels\射命丸文_改1.43_配布用\ご挨拶.txt" />
+    <None Include="Assets\MMDmodels\射命丸文_改1.43_配布用\射命丸文.xml" />
+    <None Include="Assets\MMDmodels\射命丸文_改1.43_配布用\必ずお読みください.txt" />
+    <None Include="Assets\MMDmodels\少名針妙丸\少名針妙丸.xml" />
+    <None Include="Assets\MMDmodels\早苗普通、kochiya(unity明確な特別許可有り)\KanataVer0.95.1\katana\readme_English.txt" />
+    <None Include="Assets\MMDmodels\早苗普通、kochiya(unity明確な特別許可有り)\KanataVer0.95.1\katana\readme_Japanese.txt" />
+    <None Include="Assets\MMDmodels\早苗普通、kochiya(unity明確な特別許可有り)\KanataVer0.95.1\katana\東風谷早苗.xml" />
+    <None Include="Assets\MMDmodels\河城にとり\Nitori\read me.txt" />
+    <None Include="Assets\MMDmodels\河城にとり\Nitori\河城にとり.xml" />
+    <None Include="Assets\MMDmodels\犬走 椛\Readme.txt" />
+    <None Include="Assets\MMDmodels\犬走 椛\犬走 椛v1.0a.xml" />
+    <None Include="Assets\MMDmodels\紅美鈴\Meiling\read me.txt" />
+    <None Include="Assets\MMDmodels\紅美鈴\Meiling\紅美鈴.xml" />
+    <None Include="Assets\MMDmodels\諏訪子ver_min1.1\※必ずお読みください.txt" />
+    <None Include="Assets\MMDmodels\諏訪子ver_min1.1\ご使用時のアドバイス.txt" />
+    <None Include="Assets\MMDmodels\諏訪子ver_min1.1\洩矢諏訪子.xml" />
+    <None Include="Assets\MMDmodels\諏訪子ver_min1.1\諏訪子1.1.txt" />
+    <None Include="Assets\MMDmodels\諏訪子ver_min1.1\諏訪子タッグ衣装1.1.txt" />
+    <None Include="Assets\MMDmodels\霧雨魔理沙R\霧雨魔理沙1.xml" />
+    <None Include="Assets\MMDmodels\鬼人正邪\Readme.txt" />
+    <None Include="Assets\MMDmodels\鬼人正邪\鬼人正邪.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\New 依神女苑(やられ)\依神女苑(やられ)\ご一読ください.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\New 依神女苑(バトルっぽい)\依神女苑(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\New 依神紫苑(やられ)\依神紫苑(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\New 依神紫苑(バトルっぽい)\依神紫苑(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\New 依神紫苑\依神紫苑\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\パチュリー・ノーレッジ(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\パチュリー・ノーレッジ(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\パチュリー・ノーレッジ\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\フランドール・スカーレット(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\フランドール・スカーレット(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\フランドール・スカーレット\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\レミリア・スカーレット\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\レミリア・スカーレット（やられ）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\レミリア・スカーレット（バトルっぽい2）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\十六夜咲夜(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\十六夜咲夜\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\十六夜咲夜（やられ）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\博麗霊夢(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\博麗霊夢(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\博麗霊夢\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\射命丸文(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\射命丸文(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\射命丸文\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\少名針妙丸(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\少名針妙丸(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\少名針妙丸\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\東風谷早苗(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\東風谷早苗(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\東風谷早苗\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\比那名居天子(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\比那名居天子(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\比那名居天子\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\河城にとり(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\河城にとり(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\河城にとり\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\洩矢諏訪子(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\洩矢諏訪子(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\洩矢諏訪子\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\犬走椛(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\犬走椛(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\犬走椛\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\紅美鈴\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\紅美鈴（やられ）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\紅美鈴（バトルっぽい）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナba(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナba(深秘録ver)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナba\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナバ(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霧雨魔理沙(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霧雨魔理沙(やられ)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霧雨魔理沙\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鬼人正邪(やられ)\ご一読下さい .txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鬼人正邪(バトルっぽい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鬼人正邪\ご一読下さい.txt" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\iizoVual_library\なんか.txt" />
+    <None Include="Assets\iizo紅魔館図書館\readme読んで～.txt" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\HalfLambert.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-CullBack-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-CullBack.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-CullBack-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-CullBack.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterial.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialDummy.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-CullBack-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-CullBack.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-CullBack-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-CullBack.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-NoCastShadow.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline.shader" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialShadowVertFrag.cginc" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialSurface.cginc" />
+    <None Include="Assets\mmd-for-unity 2.1b\Resources\PMDMaterial\Shaders\MeshPmdMaterialVertFrag.cginc" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\Read me.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\クナイ弾幕 ver2.0\Materials\クナイ弾幕(赤) ver.2.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\クナイ弾幕 ver2.0\クナイ弾幕(赤) ver.2.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー1 ver.1.0\New Folder\レーザー1(水) ver.1.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー1 ver.1.0\レーザー1(水) ver.1.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー2 ver.1.0\memo.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー2 ver.1.0\レーザー2(桜) ver.1.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー2 ver.1.0\レーザー2(桜) ver.1.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\星弾幕 ver.2.0\New Folder\星弾幕(青) ver.2.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\星弾幕 ver.2.0\星弾幕(青) ver.2.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\水晶弾幕 ver.2.0\memo.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\結晶弾幕 ver.2.0\memo.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\蝶弾幕 ver.2.0\memo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
